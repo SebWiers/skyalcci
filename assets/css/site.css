@@ -1,0 +1,374 @@
+html {
+	background-color: #000;
+}
+
+body{
+	font-family:sans-serif;
+	color: #ddd;
+	background-color: #000;
+}
+#on{
+	color: #ddd;
+}
+.not_for_js{
+}
+.js_only_block, js_only_inline{
+	display: none;
+}
+.small{
+	font-size: smaller;
+}
+.big{
+	font-size: larger;
+}
+.ul{
+	text-decoration: underline;
+}
+.center {
+	text-align: center;
+}
+.pow{
+	font-weight: bolder !important;
+}
+.nowrap{
+	white-space:nowrap;
+}
+.section_tab{
+	display: inline;
+	font-variant: small-caps;
+	font-weight: normal;
+	font-size: large;
+	margin-left: 1em;
+	padding: .2em .5em .2em .5em;
+	text-decoration: none;
+	z-axis: -5;
+}
+.taboff{
+	background-color:#111;
+}
+.tabon{
+	background-color: #282828;
+	text-decoration: none;
+	border-bottom: 5px solid #282828;
+	border-left: 1px solid #555;
+	border-right: 1px solid #555;
+	border-top: 1px solid #555;
+}
+.taboff:hover, .taboff:active{
+	color:#fff;
+	background-color: #444;
+	text-decoration: underline;
+}
+.right{
+	text-align: right;
+}
+.left{
+	text-align: left;
+}
+.opacity80{
+	color: #fff;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.opacity40{
+	color: #fff;
+	opacity:0.4;
+	filter:alpha(opacity=40); /* For IE8 and earlier */
+}
+.warn{
+	color: #ff0;
+}
+.line_height_250{
+	line-height:250%;
+}
+.word_spacing_1{
+	word-spacing:1em;
+}
+
+
+div{
+	margin: 0em;
+	padding: 0em;
+}
+div.controls{
+	font-weight: normal;
+	padding: .5em .25em .25em .25em;
+	min-width: 32em;
+}
+div#tabs{
+	white-space:nowrap;
+	z-index: -5;
+}
+div#main{
+	background-color:#282828;
+	margin: .25em;
+	padding: .25em;
+	font-weight: bold;
+	min-height: 10em;
+	min-width: 33em;
+	border: 1px solid #555;
+}
+div#show{
+	overflow:auto;
+	background-color: #000;
+	min-height: 10em;
+	padding: .25em;
+	margin: .25em;
+	background-image:url('../images/elderscrollsV-background-dark.jpg');
+	background-repeat: no-repeat;
+	min-width: 32em;
+	overflow: hidden;
+	border: 1px solid #666;
+	z-index: 0;
+}
+div.fb-like {
+	float: right;
+}
+div.ing_info{
+	margin: 0em 1em 1em;
+	font-weight: lighter;
+}
+
+
+a.control, input[type=submit].control{
+	background-color:#555;
+	color: #ddd;
+	padding: .25em 1em .25em 1em;
+	margin: .5em 0em .25em 1em;
+	font-size: large;
+	text-decoration: none;
+	border: 1px solid #666;
+	white-space: nowrap;
+}
+a.control:hover, a.control:active, input[type=submit].control:hover, input[type=submit].control:active{
+	color:#fff;
+	background-color: #555;
+	border-color: #aaa;
+	text-decoration: underline;
+}
+
+a:link{
+	color:#ddd;
+}
+a:visited{
+	color:#ddd;
+}
+a:hover, a:active{
+	color:#ccc;
+}
+
+a.top_control, input[type=submit].top_control{
+	color: #888;
+	padding: .25em .75em .75em .75em;
+	margin: 1em;
+	text-decoration: none;
+	white-space: nowrap;
+}
+a.top_control:hover, a.top_control:active, input[type=submit].top_control:hover, input[type=submit].top_control:active{
+	color:#fff;
+	text-decoration: underline;
+}
+a.top_control#on{
+	background-color: black;
+	color: #fff;
+	border: 1px solid #666;
+	border-bottom: 5px solid black;
+	padding-bottom: .5em;
+}
+
+ul.wide{
+	width: 100%;
+	list-style-type:none;
+	margin-left:-.5em;
+}
+ul.wide li{
+	float: left;
+	width: 15em;
+	margin:0px;
+	font-weight: lighter;
+	border-style:solid;
+	border-width: 1px;
+	border-color: #222;
+	border-radius: .75em;
+	font-size: large;
+}
+li.benefit{
+	background-color:#232;
+	background: rgba(0, 200, 0, 0.1);
+}
+li.checkedBenefit { background-color:#2a2;}
+li.harm{
+	background-color:#322;
+	background: rgba(200, 0, 0, 0.1);
+}
+li.checkedHarm { background-color:#a22;}
+li.ingredientli{
+	background-color:#181820;
+	background: rgba(0, 0, 200, 0.1);
+}
+li.checkedIng { background-color:#22a;}
+br.columnlistbr{ clear: left;}
+
+
+input[type="text"]{
+	color: #ddd;
+	background-color: #333;
+	border: 1px solid #444;
+	width:2em;
+}
+
+
+td{
+	padding:.75em;
+}
+
+.nopad{
+	padding:.0em;
+}
+
+table.recipe{
+	border-collapse:collapse;
+	background: rgba(0,0,0,0.75);
+	margin:0 auto;
+	margin-bottom: 1em;
+}
+td.recipe{
+	padding: .1em .5em .1em .5em;
+	border-top: 1px solid rgba(200,200,200,0.5);
+	border-bottom: 1px solid rgba(200,200,200,0.5);
+}
+tr.alt{
+	background: rgba(100,100,100,0.25);
+}
+td.recipe{
+	font-size: smaller;
+}
+div.settings td{
+	vertical-align: top;
+	padding: 0em 1em 1em 0em;
+	margin: .5em;
+}
+div.settings dt{
+	padding: 0em;
+	margin: .5em;
+}
+div.settings dd{
+	padding: 0em;
+	margin: .5em .5em .5em, 1.5em;
+}
+div.settings h4{
+	padding: 0em 0em 0em 1.25em;
+	margin: .5em;
+	text-decoration: underline;
+}
+div.settings p{
+	padding: 0em 0em 0em 1.5em;
+	margin: .5em;
+}
+a.acontrol{
+	text-decoration: underline;
+}
+
+.accordion, .character{
+	display:none  ;
+}
+
+
+h1{
+	margin: 1em 0em .5em .5em;
+}
+h2{
+	margin: .75em 0em .25em 1.25em;
+	font-weight:bold;
+}
+h3{
+	margin: .75em 0em .25em 2em;
+	font-weight:bold;
+}
+p.info{
+	margin: 0em 0em .25em 2.75em;
+	font-weight: lighter;
+	text-indent: 2em;
+}
+p.linfo, li.linfo{
+	margin: 0em 1em .5em 1em;
+	font-weight: lighter;
+}
+p.rinfo{
+	margin: -1px 1em 0px .5em;
+	padding: 1px 1em 1px 1em;
+	color: #888;
+	font-style: italic;
+	font-size: smaller;
+}
+p.mix{
+	margin: 1.5em 1.5em 1.5em 2.5em;
+	font-weight: lighter;
+}
+a.mix{
+	font-weight: 700;
+	text-decoration: none;
+	background-color: #666;
+	padding: .1em .5em .1em .5em;
+}
+
+span.ri, td.ri{
+	color: #aaf
+}
+span.reb{
+	color: #4d4
+}
+span.reh{
+	color: #f66
+}
+
+ul.plain{
+	list-style-type:none;
+}
+
+a.ing_match{
+	font-size: smaller;
+	float: right;
+	margin-right: 2px;
+	text-decoration: none;
+	margin: 2px 0px 0px 0px;
+}
+
+table.stats > td{
+	padding: .25em .75em;
+	margin:0em;
+}
+table.stats{
+	margin:1.5em;
+}
+table.recipes{
+	background-color: rgba(75,75,75,0.5);
+	margin:0em 2em;
+}
+th.recipes{
+	padding:.5em 1em;
+}
+tr.altr{
+	background-color: rgba(0,0,0,0.5);
+}
+tr.recipe{
+	font-size: smaller;
+}
+tr.recipe td{
+	padding:.25em !important;
+}
+span.poison, td.poison{
+	color:tomato;
+}
+span.potion, td.potion{
+	color:yellowgreen;
+}
+td.ingredients{
+	color:cornflowerblue;
+}
+td.value{
+	color:silver;
+}
+td.recipe-name{
+	font-style: italic;
+}
